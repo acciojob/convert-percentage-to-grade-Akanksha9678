@@ -3,16 +3,16 @@ function calculateGrade(percentage) {
 	if(percentage>=90){
 		return 'A';
 	}
-	if else(percentage<=89 && percentage>=80){
+	else if(percentage<=89 && percentage>=80){
 		return 'B';
 	}
-	if else(percentage<=79 && percentage>=70){
+	else if(percentage<=79 && percentage>=70){
 		return 'C';
 	}
-	if else(percentage<=69 && percentage>=60){
+	else if(percentage<=69 && percentage>=60){
 		return 'D';
 	}
-	if else(percentage<60){
+	else if(percentage<60){
 		return 'F';
 	}
 }
